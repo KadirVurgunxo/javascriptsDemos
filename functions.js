@@ -1,8 +1,12 @@
-function sayiUret(){
-   return Math.ceil(Math.random() * 60)
-}
+var degisken = "Deger"
+function sayiUret(ustLimit = 49 ){
+   return Math.ceil(Math.random() * ustLimit)
 
-//
+   console.log(degisken)
+}
+ 
+console.log(degisken)
+
 
 sayiUret()
 var sayi1 = sayiUret()
